@@ -1,3 +1,17 @@
+/*
+  Baseado em: http://unstats.un.org/unsd/methods/m49/m49alpha.htm
+  Nomes dos países traduzidos automáticamente com o Google Translate. Algumas inconsitências nos nomes podem ocorrer.
+  
+*/
+
+/* Tabela */
+CREATE TABLE `paises` (
+  `cod_pais` INT NOT NULL COMMENT '',
+  `nome` VARCHAR(50) NOT NULL COMMENT '',
+  `sigla` VARCHAR(3) NULL COMMENT '',
+  PRIMARY KEY (`cod_pais`)  COMMENT '')
+  
+/* Países */
 INSERT INTO `paises` (`cod_pais`, `nome`,`sigla`) VALUES
 ('4','Afeganistão','AFG'),
 ('248','Ilhas Åland','ALA'),
